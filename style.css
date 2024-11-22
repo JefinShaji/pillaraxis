@@ -1,0 +1,190 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+/* Colorful Header */
+header {
+    background: linear-gradient(90deg, #ff6b6b, #ff9f43);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+header .logo span {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    font-size: 16px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Booking Section */
+.booking-section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.train-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.train-image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #007bff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.date-picker-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.date-picker-container label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    color: #555;
+}
+
+.date-picker-container input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.date-picker-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.date-picker-container button:hover {
+    background-color: #e63946;
+}
+
+.result-box {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* FAQ Section */
+.faq {
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff6b6b; /* Updated to match the theme */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background: #ff6b6b;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer .social-icons a:hover {
+    color: #ffd166;
+}
